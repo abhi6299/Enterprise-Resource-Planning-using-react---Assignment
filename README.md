@@ -1,4 +1,4 @@
-# Project Title
+# Enterprise Resource Planning System
 
 ## Introduction
 A simplified interface for an **ERP (Enterprise Resource Planning)** system is designed to manage basic business operations efficiently. 

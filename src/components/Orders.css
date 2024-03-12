@@ -1,0 +1,101 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 400px;
+  font-size:1.4rem;
+}
+
+.modal h3 {
+  margin-bottom: 15px;
+}
+
+.modal div {
+  margin-bottom: 15px;
+}
+
+.modal label {
+  /* display: block; */
+  margin-bottom: 5px;
+}
+.modal .inputSelect{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.modal input {
+  width: 100%;
+  padding: 8px;
+  display: inline;
+  /* box-sizing: border-box; */
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+
+.modal .formButtons{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+}
+
+.outer {
+  margin-top:20px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  padding:40px;
+  background-color: #f0f0f0;
+}
+
+.inner-child {
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width:25%;
+  font-size: 1.2rem;
+  /* border:2px solid black; */
+}
+
+.inner button {
+  border-radius:1rem;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 1rem;
+  margin:0px 6px 0px 6px;
+}
+.inner .edit-button:hover {
+  background-color: lightblue;
+}
+.inner .delete-button:hover {
+  background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+
+  .modal {
+    width: 80%;
+  }
+}
+  
+  

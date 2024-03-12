@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+A simplified interface for an **ERP (Enterprise Resource Planning)** system is designed to manage basic business operations efficiently. 
+The system will consist of four Pages - Dashboard, Products, Orders & Orders Calendar View
 
-## Available Scripts
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Screenshots](#screenshots)
 
-In the project directory, you can run:
+## Installation
+1. Clone the directory
+   ```
+   git clone <repo_URL>
+   ```
+3. Navigate to the project directory
+   ```
+   cd <Project_directory>
+   ```
+4. Install Dependencies
+   ```markdown
+   npm i
+   ```
 
-### `npm start`
+## Usage
+1. Start the development server:
+```markdown
+npm install
+```
+2. Open your browser:
+```bash
+  Open the browser and go to http://localhost:3000 to view the running UI.
+```
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Dashboard Page- provides details of several products and orders helping to provide overview of the system.
+2. Products Management Page allows for the management of product listings. Functionalities to add, edit, and delete products is enabled.
+3. Orders Management Page -Facilitates viewing and handling orders. Show a list of orders, including details like order ID, customer name, order date, and status, using mock data. The functionality to edit the status of the order is enabled.
+4. Orders Calendar View Page - Provide the ability to click on a date to view all orders due for delivery that day.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributing
+Kindly create a PR for any contribution or suggestions. Thanks!
 
-### `npm test`
+## Screenshots of the Application
+**Dashboard Page ( HomePage )-** 
+![Screenshot (1058)](https://github.com/abhi6299/Enterprise-Resource-Planning-using-react---Assignment/assets/48280843/2f9e99d3-9d06-4fa8-b4c5-e73e9f440fb6)
+**Products Management Page-**
+![Screenshot (1059)](https://github.com/abhi6299/Enterprise-Resource-Planning-using-react---Assignment/assets/48280843/a3267d9a-b316-44e9-8f2d-3cc45265a460)
+**Add Product Modal-**
+![Screenshot (1060)](https://github.com/abhi6299/Enterprise-Resource-Planning-using-react---Assignment/assets/48280843/8da7c143-0871-49ca-a6c0-36523a711f21)
+**Edit Product Modal-**
+![Screenshot (1061)](https://github.com/abhi6299/Enterprise-Resource-Planning-using-react---Assignment/assets/48280843/1dc89670-7e73-4a41-8328-e5143c928774)
+**Order Management Page-**
+![Screenshot (1062)](https://github.com/abhi6299/Enterprise-Resource-Planning-using-react---Assignment/assets/48280843/899d98d4-2922-4fc0-9465-33034691b658)
+**Order Details Modal-**
+![Screenshot (1063)](https://github.com/abhi6299/Enterprise-Resource-Planning-using-react---Assignment/assets/48280843/a4cd847f-f913-4303-8fd0-c84072e4cf83)
+**Edit Order Modal-**
+![Screenshot (1064)](https://github.com/abhi6299/Enterprise-Resource-Planning-using-react---Assignment/assets/48280843/124c1d8b-9538-443c-b248-38d009bdd180)
+**Order Page showing delete-**
+![Screenshot (1065)](https://github.com/abhi6299/Enterprise-Resource-Planning-using-react---Assignment/assets/48280843/0b2e3d71-87f8-4c88-bf87-34e15e302c52)
+**Orders Calendar View-**
+![Screenshot (1066)](https://github.com/abhi6299/Enterprise-Resource-Planning-using-react---Assignment/assets/48280843/23db17eb-d72f-4502-98e6-d7c9d3c62602)
+**Showcasing Orders on various dates-**
+![Screenshot (1068)](https://github.com/abhi6299/Enterprise-Resource-Planning-using-react---Assignment/assets/48280843/7873564e-aa1c-4f4a-b8e2-e75031dacc68)
+![Screenshot (1069)](https://github.com/abhi6299/Enterprise-Resource-Planning-using-react---Assignment/assets/48280843/cf782ee3-c693-495d-99cd-9ec265d86fa7)
+![Screenshot (1070)](https://github.com/abhi6299/Enterprise-Resource-Planning-using-react---Assignment/assets/48280843/992e5359-df78-46d2-b65c-508c81f294cc)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
